@@ -4,9 +4,9 @@ This repository contains scripts to help you build a Work Log App using Maven.
 
 ## Prerequisites
 
-- Install Maven on your local Machine.
-- Install Java on your local Machine.
-- Install Visual Studio Code if you want since that's what I am using in this demo. 
+- Install Maven on your local Machine: https://maven.apache.org/.
+- Install Java on your local Machine: https://www.oracle.com/java/technologies/downloads/.
+- Install Visual Studio Code if you want since that's what I use in this demo: https://code.visualstudio.com/download. 
 
 ## Steps
 
