@@ -8,33 +8,30 @@ This repository contains scripts to help you build a Work Log App using Maven.
 - Install Java on your local Machine.
 - Install Visual Studio Code if you want since that's what I am using in this demo. 
 
-## Setup
+## Steps
 
-1. **Clone the repository**
+**1. Clone the repository**
 
-   -> git clone https://github.com/Here2ServeU/aws-autoscaling-sns-terraform.git
+   -> git clone https://github.com/Here2ServeU/worklogapp-maven.git
    
-   -> cd aws-autoscaling-sns-terraform
+   -> cd worklogapp-maven
 
-2. ***
+***2. Edit the pom.xml file as desired**
 
-    -> terraform init
 
-3. **Review and modify variables**
+**3. Build, Test, and Package Your Application**
 
-    -> terraform init
+    -> mvn compile
 
-4. **Plan the Deployment**
+    -> mvn test 
 
-    -> terraform plan
+    -> mvn package
 
-5. **Apply the Deployment**
 
-    -> terraform apply
+**4. Run the JAR File**
 
-6. **Clean up whenever necessary**
+    -> java -jar target/worklog-1.0-SNAPSHOT.jar
 
-    -> terraform destroy
 
 ## Troubleshooting
 If you encounter any issues, please check the following:
@@ -43,11 +40,10 @@ If you encounter any issues, please check the following:
 - Verify that your Terraform configurations are correct and all required variables are set.
 - Check the AWS Management Console for any errors related to the resources being created.
 
+
 ## Contributing
 Feel free to customize this `README.md` file according to your specific requirements and project details.
 
 
 
 
-
-#github #readme
